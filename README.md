@@ -38,6 +38,7 @@ Data Source=Kaggle.com
 after close and apply delete the unwanted queries or tables.
 
 #Dax- for creating measures useful for data analysis.
+Go on table view and select new measure from table tools tab and create the following Measures
 
 1.electricity cost = CALCULATE([Total cost],'Energy Consumptions'[Energy type]="electricity")
 2.Electricity cost left = [Total cost]-[electricity cost]
@@ -58,5 +59,20 @@ after close and apply delete the unwanted queries or tables.
 17.Water% = CALCULATE([total water consumption]/SUM('Energy Consumptions'[units]))
 
 #visualization
+Go on report view and and select the following visuals
+1.Donut chart for the total consumption of energy types in percentages.
+2.Bar chart for total cost by city.
+3.Treemap for Total cost by energy type.
+4.line and area chart for yearly trend in energy consumption.
+5.column chart for total cost by Buildings.
+6.add cards for a)total Buildings
+                b)total cost
+                c)total consumption
+7.add slicers a)city
+              b)Year
+              c)Energy type
+
+and format the pages according to your choice.
+
 
 
